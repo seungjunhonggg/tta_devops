@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: fastapi
-        image: ghcr.io/seungjunhonggg/tta_edu_test/my-app:latest  # GHCR 이미지 경로
+        image: ghcr.io/seungjunhonggg/tta_devops/my-app:latest  # GHCR 이미지 경로
         ports:
         - containerPort: 8000
       # imagePullSecrets:
