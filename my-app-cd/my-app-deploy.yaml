@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: fastapi-deployment
-  namespace: <Your Github Unsername>
+  namespace: seungjunhonggg
 spec:
   replicas: 1
   selector:
@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: fastapi
-        image:   # GHCR 이미지 경로
+        image: ghcr.io/seungjunhonggg/tta_edu_test/my-app:latest  # GHCR 이미지 경로
         ports:
         - containerPort: 8000
       imagePullSecrets:
