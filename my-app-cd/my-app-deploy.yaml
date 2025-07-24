@@ -18,8 +18,8 @@ spec:
         image: ghcr.io/seungjunhonggg/tta_edu_test/my-app:latest  # GHCR 이미지 경로
         ports:
         - containerPort: 8000
-      imagePullSecrets:
-      - name: ghcr-secret  # 생성한 ImagePullSecret 참조
+      # imagePullSecrets:
+      # - name: ghcr-secret  # 생성한 ImagePullSecret 참조
 
 ---
 apiVersion: v1
